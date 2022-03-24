@@ -4,6 +4,7 @@ git add . (Add all modifications)
 git commit -m 'init com'
 git remote add origin https://...
 git remote -v
+git fetch origin
 git branch --set-upstream-to=origin/main master
 git pull --allow-unrelated-histories
 git push origin HEAD:main
